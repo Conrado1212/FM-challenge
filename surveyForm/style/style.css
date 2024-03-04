@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Outfit", sans-serif;
+    box-sizing: border-box;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    font-size: 15px;
+}
+.container{
+    margin: 0 auto;
+    background-image: url()
+}
