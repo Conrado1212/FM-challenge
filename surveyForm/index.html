@@ -17,17 +17,28 @@
         </p>
        </header>
        <form action="" id="survey-form">
-           <label id="name-label" for="name">Name</label>
-           <input type="text" name="name" id="name" class="" placeholder="Enter your name" required>
-           <label id="email-label" for="name">Name</label>
-           <input type="text" name="name" id="email" class="" placeholder="Enter your email" required>
-           <label id="number-label" for="name">Name</label>
-           <input type="number" name="name" id="number" class="" placeholder="Enter your email" min="15" max="99" required>
+           <div class="form-input">
+            <label id="name-label" for="name">Name</label>
+            <input type="text" name="name" id="name" class="" placeholder="Enter your name" required>
+            
+           </div>
+           <div class="form-input">
+            <label id="email-label" for="email">E-mail</label>
+            <input type="text" name="email" id="email" class="" placeholder="Enter your email" required>
+           </div>
+           <div class="form-input">
+            <label id="number-label" for="number">Number</label>
+            <input type="number" name="number" id="number" class="" placeholder="Enter your age" min="15" max="99" required>
+            </div>
+            <div class="form-input">
             <select name="" id="dropdown">
-                <option value=""></option>
-                <option value=""></option>
+                <option value="Test">Test</option>
+                <option value="Test2">Test2</option>
             </select>
+             </div>
+             <div class="form-input">
             <input type="radio">
+            </div>
        </form>
     </div>
 </body>
