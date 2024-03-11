@@ -89,7 +89,22 @@ body{
     display: inline-block;
 }
 .form-input input button select textarea{
+
+}
+.form-input .form-area{
+    width: 100%;
+    min-height: 250px;
+    resize: vertical;
     
+}
+.form-input .input-button{
+    width: 100%;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 1rem;
+    background-color: aqua;
+    border: 1.5px solid #080808
 }
 @media only screen and (min-width:480px){
 form{
