@@ -8,9 +8,14 @@ font-family: sans-serif;
 font-size: 15px;
 font-weight: bolder;
 align-items: center;
+text-align: center;
+color: antiquewhite;
 }
-.main{
-    
+#main{
+    background-color: #00203fff;
+    border-radius: 5px;
+    padding: auto;
+    margin: auto;
 }
 img{
     display: block;
