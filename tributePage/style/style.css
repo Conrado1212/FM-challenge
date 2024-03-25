@@ -12,10 +12,36 @@ text-align: center;
 color: antiquewhite;
 }
 #main{
-    background-color: #00203fff;
+    background-color: #1b1c1d;
     border-radius: 5px;
     padding: auto;
     margin: auto;
+}
+.nav-menu{
+    width: 100%;
+    display: flex;
+   
+}
+.nav-menu ul{
+    list-style: none;
+    margin-top: 1%;
+   margin-left: 1%;
+}
+.nav-menu ul li{
+display: inline;
+   padding: 0.5em;
+}
+.nav-menu ul li a{
+text-decoration: none;
+font-weight: bold;
+text-align: center;
+color: aliceblue;
+font-size: 20px;
+padding: 0.5em;
+}
+.nav-menu ul li a:hover{
+    cursor: pointer;
+    background-color: #28292b;
 }
 img{
     display: block;
