@@ -66,7 +66,34 @@ padding: 0.5em;
 }
 .main-info{
     background-color: #fff;
+   
 }
+.more-info{
+    width:100%;
+    background-color: #fff;   
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    padding: 3% 0;
+}
+.more-info a{
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 24px;
+    padding: 0.5em;
+    color: #1b1c1d;
+}
+.wiki{
+    background-color: #6c6e74;
+}
+.yt{
+   
+}
+ .apple{
+     
+ }
 img{
     display: block;
 }
@@ -76,7 +103,7 @@ img{
     margin: 0 auto;
 }
 footer{
-    background-color: #28292b;
+    background-color: #1b1c1d;
     color: aliceblue;
     padding: 2% 1%;
     display: flex;
