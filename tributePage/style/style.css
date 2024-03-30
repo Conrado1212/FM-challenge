@@ -9,6 +9,7 @@ font-size: 15px;
 font-weight: bolder;
 align-items: center;
 text-align: center;
+
 }
 #main{
    
@@ -20,7 +21,7 @@ text-align: center;
     width: 100%;
     display: flex;
     background-color: #1b1c1d;
-    padding: 0.6em;
+
 }
 .nav-menu ul{
     list-style: none;
@@ -50,6 +51,8 @@ padding: 0.5em;
 .title{
     min-height: 330px;
     background-color: #1b1c1d;
+    width: 100%;
+   
 }
 .title h2{
     font-size: 48px;
@@ -66,7 +69,7 @@ padding: 0.5em;
 }
 .main-info{
     background-color: #fff;
-   
+    padding: 0.6em;
 }
 .more-info{
     width:100%;
@@ -138,7 +141,6 @@ img{
 footer{
     background-color: #1b1c1d;
     color: aliceblue;
-    padding: 1% 1%;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -146,6 +148,7 @@ footer{
     align-items: center;
     justify-content: center;
     letter-spacing: 0.2px;
+  
 }
 .tech{
     
@@ -167,7 +170,7 @@ font-size: 12px;
       width: 33%;
       min-height: 50px;
       border-right: 1px solid #9c9ea5;
-    
+     
 }
 .footer p{
     padding: 2%;
@@ -206,5 +209,13 @@ width: 50%;
 }
 .timeline{
 width: 50%;
+}
+
+.sticky{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    top:0;
+    z-index: 100;
 }
 
