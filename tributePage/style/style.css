@@ -94,6 +94,10 @@ padding: 0.5em;
     margin: 1%;
    
 }
+.wiki:hover{
+    background-color: #9c9ea5; 
+    cursor:pointer;
+}
 .wiki a {
     color: #fff;
 }
@@ -103,15 +107,22 @@ padding: 0.5em;
     padding: 1% 0;
     margin: 1%;
 }
+.yt:hover{
+    background-color: #ad3337;
+}
 .yt a{
     color: aliceblue;
 }
+
  .apple{
     margin: 1%;
     border-radius: 5%;
     padding: 1% 0;
-    background-color: #1b1c1d;
+    background-color: #2a2b2c;
  }
+.apple:hover{
+    background-color: #050505;
+}
 
  .apple a{
     color: aliceblue;
@@ -127,7 +138,47 @@ img{
 footer{
     background-color: #1b1c1d;
     color: aliceblue;
-    padding: 2% 1%;
+    padding: 1% 1%;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.2px;
+}
+.tech{
+    
+}
+.technology{
+   
+    padding: 1% 0;
+    text-align: center;
+    border-right: 1px solid #9c9ea5;
+    width: 33%;
+    min-height: 50px;
+}
+.technology p{
+font-size: 12px;
+}
+.footer{
+    padding: 1% 0;
+    text-align: center;
+      width: 33%;
+      min-height: 50px;
+      border-right: 1px solid #9c9ea5;
+}
+.info{
+    padding: 1% 0;
+    text-align: center;
+      width: 33%;
+      min-height: 50px;
+}
+.info a {
+    text-decoration: none;
+    color: #9c9ea5; 
+}
+.info a:hover{
+    cursor: pointer;
+    color: #6e7075; 
 }
