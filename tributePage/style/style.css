@@ -167,6 +167,10 @@ font-size: 12px;
       width: 33%;
       min-height: 50px;
       border-right: 1px solid #9c9ea5;
+    
+}
+.footer p{
+    padding: 2%;
 }
 .info{
     padding: 1% 0;
@@ -178,7 +182,20 @@ font-size: 12px;
     text-decoration: none;
     color: #9c9ea5; 
 }
+.info p{
+    padding: 2%;
+}
 .info a:hover{
     cursor: pointer;
     color: #6e7075; 
+}
+.information{
+    width:100%;
+    display: flex;
+}
+.img-info{
+width: 50%;
+}
+.timeline{
+width: 50%;
 }
