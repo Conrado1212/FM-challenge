@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    var NavY = $('.nav').offset().top;
+    var NavY = $('.nav-menu').offset().top;
 
     var stickyNav = function(){
         var ScrollY = $(window).scrollTop();
