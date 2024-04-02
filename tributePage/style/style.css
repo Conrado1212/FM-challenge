@@ -216,8 +216,8 @@ margin: 1% auto;
 }
 #career{
     text-align: center;
-    height: auto;
-    margin: 5px 0 20px;
+    
+    margin: 5px 0 15px;
     border-bottom: 1px solid  #28292b;
     line-height: 0.1em;
 }
@@ -230,7 +230,11 @@ margin: 1% auto;
     padding: 2%;
 }
 .text-info{
-
+position: relative;
+padding: 10px 20px;
+border-radius: 10px;
+border: 1px solid  #28292b;
+width: 50%;
 }
 .sticky{
     width: 100%;
