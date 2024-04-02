@@ -12,3 +12,16 @@ $(document).ready(function() {
         stickyNav();
     });
 });
+
+
+
+const scrollToBtn = $('#scrollBtn');
+const scrollToEl = $('#header1');
+scrollToBtn.click(() => {
+  $('html').animate(
+    {
+      scrollTop: scrollToEl.offset().top,
+    },
+    800 //speed
+  );
+});
