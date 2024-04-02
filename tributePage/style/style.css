@@ -209,8 +209,29 @@ width: 50%;
 }
 .timeline{
 width: 50%;
-}
+position: relative;
+margin: 1% auto;
 
+
+}
+#career{
+    text-align: center;
+    height: auto;
+    margin: 5px 0 20px;
+    border-bottom: 1px solid  #28292b;
+    line-height: 0.1em;
+}
+#career span{
+    padding:0 10px; 
+    background:#fff; 
+}
+.time-container{
+    position: relative;
+    padding: 2%;
+}
+.text-info{
+
+}
 .sticky{
     width: 100%;
     position: fixed;
