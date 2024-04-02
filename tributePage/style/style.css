@@ -228,13 +228,14 @@ margin: 1% auto;
 .time-container{
     position: relative;
     padding: 2%;
+    width: 50%;
 }
 .text-info{
 position: relative;
 padding: 10px 20px;
 border-radius: 10px;
-border: 1px solid  #28292b;
-width: 50%;
+border: 1px solid #6e7075; 
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
 }
 .sticky{
     width: 100%;
