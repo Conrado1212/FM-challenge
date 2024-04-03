@@ -12,7 +12,7 @@ text-align: center;
 
 }
 #main{
-   
+   min-width: 360px;
     border-radius: 5px;
     padding: auto;
     margin: auto;
@@ -211,7 +211,7 @@ width: 50%;
 width: 50%;
 position: relative;
 margin: 1% auto;
-
+max-height: 700px;
 
 }
 #career{
@@ -229,6 +229,9 @@ margin: 1% auto;
     position: relative;
     width: 50%;
     text-align: left;
+}
+.time-container p{
+    color: #6e7075;
 }
 .text-info{
 position: relative;
