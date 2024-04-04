@@ -214,6 +214,7 @@ margin: 1% auto;
 max-height: 700px;
 
 }
+
 #career{
     text-align: center;
     
@@ -227,8 +228,9 @@ max-height: 700px;
 }
 .time-container{
     position: relative;
-    width: 50%;
+    width: 40%;
     text-align: left;
+    padding: 10px 50px;
 }
 .time-container p{
     color: #6e7075;
@@ -249,6 +251,9 @@ border-radius: 10px;
 border: 1px solid #6e7075; 
 box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
 }
+.text-info h2{
+    margin-bottom: 15px;
+}
 .left-con{
     left:0;
 }
@@ -256,7 +261,7 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
     left: 50%;
 }
 .right-con i{
-    left: -15px;
+    left: -25px;
 }
 .sticky{
     width: 100%;
@@ -266,3 +271,24 @@ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.175);
     z-index: 100;
 }
 
+.left-con-arrow{
+height: 0;
+width: 0;
+position: absolute;
+top: 32px;
+z-index: 1;
+border-top: 15px solid transparent;
+border-bottom: 15px solid transparent;
+border-left: 15px solid  #6e7075; 
+right: -1;
+}
+.right-con-arrow{
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
