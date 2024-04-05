@@ -136,7 +136,8 @@ img{
 #image{
     max-width: 100%;
     height: auto;
-    margin: 0 auto;
+    margin: 40 auto;
+
 }
 footer{
     background-color: #1b1c1d;
@@ -200,12 +201,18 @@ font-size: 12px;
 width: 50%;
 }
 .img-info img{
-    width: 70%;
+    width: 40%;
     border-radius: 30px;
-    border-left: 1px solid  #1b1c1d;;
+    border-left: 1px solid  #1b1c1d;
+    padding: 10px 20px;
 }
 #img-caption{
-    width: 30%;
+    width: 80%;
+   text-align: center;
+   margin: 30px auto;
+   padding: 10px 20px;
+   font-size: 18px;
+   color: #6e7075;
 }
 .timeline{
 width: 50%;
