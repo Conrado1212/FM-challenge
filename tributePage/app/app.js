@@ -14,9 +14,9 @@ $(document).ready(function() {
 });
 
 
-
-const scrollToBtn = $('#scrollBtn');
-const scrollToEl = $('#header1');
+function scrollToElement(x,y){
+const scrollToBtn = $(x);
+const scrollToEl = $(y);
 scrollToBtn.click(() => {
   $('html').animate(
     {
@@ -25,3 +25,4 @@ scrollToBtn.click(() => {
     800 //speed
   );
 });
+}
